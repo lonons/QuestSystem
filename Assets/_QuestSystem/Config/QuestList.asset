@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: QuestList
   m_EditorClassIdentifier: 
   questList:
-  - <Text>k__BackingField: "\u041A\u0430\u0434\u0436\u0438\u0442 \u0433\u043E\u043B\u043E\u0434\u0435\u043D"
-    <Condition>k__BackingField: {fileID: 6038527313964669608, guid: 582fede2171e47a46a1add53ab2e183a, type: 3}
+  - <QuestId>k__BackingField: 0
+    <Text>k__BackingField: "\u041A\u0430\u0434\u0436\u0438\u0442 \u0433\u043E\u043B\u043E\u0434\u0435\u043D"
+  - <QuestId>k__BackingField: 1
+    <Text>k__BackingField: "\u041A\u0430\u0434\u0436\u0438\u0442 \u0433\u043E\u043B\u043E\u0434\u0435\u043D"
+  - <QuestId>k__BackingField: 2
+    <Text>k__BackingField: "\u041A\u0430\u0434\u0436\u0438\u0442 \u0433\u043E\u043B\u043E\u0434\u0435\u043D"
+  - <QuestId>k__BackingField: 3
+    <Text>k__BackingField: "\u041A\u0430\u0434\u0436\u0438\u0442 \u0433\u043E\u043B\u043E\u0434\u0435\u043D"
