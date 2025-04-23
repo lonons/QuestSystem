@@ -1,9 +1,10 @@
+using System;
 using Unity.VisualScripting;
 
 namespace QuestSystem
 {
     internal interface ICondition
     {
-        public void Completed();
+        public event Action<float> OnCompleted;
     }
 }
