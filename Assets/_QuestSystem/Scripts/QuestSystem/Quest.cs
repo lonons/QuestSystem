@@ -6,7 +6,6 @@ namespace QuestSystem
     internal class Quest : IQuest
     {
         public event Action OnQuestComplete;
-        
         public int GetID {get; private set;}
         public string GetName {get; private set;}
         public string GetDescription {get; private set;}

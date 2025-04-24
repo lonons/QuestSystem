@@ -2,16 +2,15 @@ namespace QuestSystem
 {
     internal class QuestFactory : IQuestFactory
     {
-        
-        public IQuest CreateQuest(IQuestConfig questConfig)
+        public IQuest Create(IQuestConfig questConfig)
         {
             return new Quest(
-                0,
+                questConfig.Id,
                 questConfig.Name,
                 questConfig.Description,
-                new KillObjectCondition(),
+                questConfig.Condition,
                 new Progress(questConfig.NeededProgress),
-                new Reward()
+                questConfig.Reward
                 );
         }
     }
